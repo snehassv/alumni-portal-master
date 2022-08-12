@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CATALOG [
+<!ELEMENT CATALOG (CD+)>
+<!ELEMENT CD (year,title,where)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title id CDATA "1">
+<!ELEMENT where (#PCDATA)>
+<!ENTITY tit "class">
+]>
+<CATALOG>
+  <CD>
+    <year>2012-2014</year>
+    <title id="1">&tit;9 and 10</title>
+	<where>RSK</where>
+  </CD>
+  <CD>
+    <year>2014-2016</year>
+    <title id="2">&tit;11 and 12</title>
+	<where>RSK</where>
+  </CD>
+  <CD>
+    <year>2016-2020</year>
+    <title id="3">Btech CSE</title>
+	<where>Amrita</where>
+  </CD>
+</CATALOG>

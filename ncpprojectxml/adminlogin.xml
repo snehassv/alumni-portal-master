@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CATALOG [
+<!ELEMENT CATALOG (CD+)>
+<!ELEMENT CD (email,password)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email id CDATA "1">
+<!ELEMENT password (#PCDATA)>
+<!ENTITY word "yamini123">
+]>
+<CATALOG>
+  <CD>
+    <email id="1">sanjana@gmail.com</email>
+    <password>&word;123</password>
+  </CD>
+  <CD>
+    <email id="2">sneha@gmail.com</email>
+    <password>yamini</password>
+  </CD>
+  <CD>
+    <email id="3">ishu@gmail.com</email>
+    <password>sanju</password>
+  </CD>
+  <CD>
+    <email id="4">lp@gmail.com</email>
+    <password>sneha</password>
+  </CD>
+</CATALOG>

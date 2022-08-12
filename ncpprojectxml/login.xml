@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CATALOG [
+<!ELEMENT CATALOG (CD+)>
+<!ELEMENT CD (student,login,password)>
+<!ELEMENT student (#PCDATA)>
+<!ATTLIST student id CDATA "1">
+<!ELEMENT login (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ENTITY stu "123">
+]>
+<CATALOG>
+  <CD>
+    <student id="1">&stu;</student>
+    <login>yamini123</login>
+	<password>yamini123</password>
+  </CD>
+  <CD>
+    <student id="2">234</student>
+    <login>sneha234</login>
+	<password>sneha</password>
+  </CD>
+  <CD>
+    <student id="3">456</student>
+    <login>ishu897</login>
+	<password>ishu</password>
+  </CD>
+  <CD>
+    <student id="4">567</student>
+    <login>lakshmi951</login>
+	<password>lakshmi</password>
+  </CD>
+</CATALOG>

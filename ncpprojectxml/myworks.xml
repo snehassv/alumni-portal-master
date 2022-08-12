@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CATALOG [
+<!ELEMENT CATALOG (CD+)>
+<!ELEMENT CD (id,image,type)>
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id i CDATA "1">
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ENTITY img "png">
+]>
+<CATALOG>
+  <CD>
+    <id i="1">abc</id>
+    <image>image1</image>
+	<type>&img;</type>
+  </CD>
+  <CD>
+    <id i="2">bcd</id>
+    <image>imagge2</image>
+	<type>jpg</type>
+  </CD>
+  <CD>
+    <id i="3">hjg</id>
+    <image>image3</image>
+	<type>&img;</type>
+  </CD>
+  <CD>
+    <id i="4">ouy</id>
+    <image>image4</image>
+	<type>jpeg</type>
+  </CD>
+</CATALOG>
